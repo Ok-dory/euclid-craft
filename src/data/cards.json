@@ -1,0 +1,584 @@
+{
+  "cards": [
+    {
+      "id": "axiom_1",
+      "type": "axiom",
+      "name": "Axiom 1 — Equal to the Same",
+      "nameKo": "공리 1 — 동일한 것과 같음",
+      "description": "Things which are equal to the same thing are also equal to one another.",
+      "descriptionKo": "같은 것과 같은 것들은 서로 같다.",
+      "quote": "누군가를 사랑한다는 건… 같은 것을 바라보는 거잖아요. 그게 등호라는 거예요!",
+      "imageUrl": "/images/cards/axiom_1.png"
+    },
+    {
+      "id": "axiom_2",
+      "type": "axiom",
+      "name": "Axiom 2 — Adding Equals",
+      "nameKo": "공리 2 — 같은 것을 더함",
+      "description": "If equals be added to equals, the wholes are equal.",
+      "descriptionKo": "같은 것에 같은 것을 더하면 전체도 같다.",
+      "quote": "공평하게 나눠야 한다고요? 처음부터 같은 걸 받았으면 더해도 같잖아요!",
+      "imageUrl": "/images/cards/axiom_2.png"
+    },
+    {
+      "id": "axiom_3",
+      "type": "axiom",
+      "name": "Axiom 3 — Subtracting Equals",
+      "nameKo": "공리 3 — 같은 것을 뺌",
+      "description": "If equals be subtracted from equals, the remainders are equal.",
+      "descriptionKo": "같은 것에서 같은 것을 빼면 나머지도 같다.",
+      "quote": "빼도 달라지지 않아요. 원래부터 같았으니까… 그게 공평함이에요.",
+      "imageUrl": "/images/cards/axiom_3.png"
+    },
+    {
+      "id": "axiom_4",
+      "type": "axiom",
+      "name": "Axiom 4 — Coincidence",
+      "nameKo": "공리 4 — 일치",
+      "description": "Things which coincide with one another are equal to one another.",
+      "descriptionKo": "서로 겹치는 것들은 서로 같다.",
+      "quote": "딱 맞아떨어지는 느낌… 퍼즐 조각이 딱 맞을 때 그게 완전한 평등이에요!",
+      "imageUrl": "/images/cards/axiom_4.png"
+    },
+    {
+      "id": "axiom_5",
+      "type": "axiom",
+      "name": "Axiom 5 — The Whole",
+      "nameKo": "공리 5 — 전체",
+      "description": "The whole is greater than the part.",
+      "descriptionKo": "전체는 부분보다 크다.",
+      "quote": "저 혼자보다 우리 팀이 더 강해요! 그게 전체의 힘이라고요~",
+      "imageUrl": "/images/cards/axiom_5.png"
+    },
+    {
+      "id": "postulate_1",
+      "type": "postulate",
+      "name": "Postulate 1 — Line Between Points",
+      "nameKo": "공준 1 — 두 점을 잇는 직선",
+      "description": "To draw a straight line from any point to any point.",
+      "descriptionKo": "어떤 두 점으로부터 직선을 그을 수 있다.",
+      "quote": "두 사람이 있으면 사이를 이어주고 싶어지잖아요. 직선으로, 곧게!",
+      "imageUrl": "/images/cards/postulate_1.png"
+    },
+    {
+      "id": "postulate_2",
+      "type": "postulate",
+      "name": "Postulate 2 — Extend a Line",
+      "nameKo": "공준 2 — 직선 연장",
+      "description": "To produce a finite straight line continuously in a straight line.",
+      "descriptionKo": "유한한 직선을 직선으로 계속 연장할 수 있다.",
+      "quote": "끝이 없다고 두려워하지 마세요. 직선은 언제나 앞으로 나아갈 수 있어요!",
+      "imageUrl": "/images/cards/postulate_2.png"
+    },
+    {
+      "id": "postulate_3",
+      "type": "postulate",
+      "name": "Postulate 3 — Draw a Circle",
+      "nameKo": "공준 3 — 원 그리기",
+      "description": "To describe a circle with any centre and radius.",
+      "descriptionKo": "어떤 중심과 반지름으로도 원을 그릴 수 있다.",
+      "quote": "내 중심을 정하면 세상 어디서든 완벽한 원을 그릴 수 있어요. 컴퍼스처럼요!",
+      "imageUrl": "/images/cards/postulate_3.png"
+    },
+    {
+      "id": "postulate_4",
+      "type": "postulate",
+      "name": "Postulate 4 — Right Angles Equal",
+      "nameKo": "공준 4 — 직각은 모두 같다",
+      "description": "That all right angles are equal to one another.",
+      "descriptionKo": "모든 직각은 서로 같다.",
+      "quote": "직각은 어디서나 90도예요. 변하지 않는 절대적인 기준… 멋있지 않나요?",
+      "imageUrl": "/images/cards/postulate_4.png"
+    },
+    {
+      "id": "postulate_5",
+      "type": "postulate",
+      "name": "Postulate 5 — Parallel Postulate",
+      "nameKo": "공준 5 — 평행선 공준",
+      "description": "If a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side.",
+      "descriptionKo": "한 직선이 두 직선과 만날 때 같은 쪽 내각의 합이 두 직각보다 작으면, 두 직선은 연장했을 때 그 쪽에서 만난다.",
+      "quote": "서로 달리는 두 직선… 언젠가 만날 운명일까요? 각도가 그 답을 알고 있어요.",
+      "imageUrl": "/images/cards/postulate_5.png"
+    },
+    {
+      "id": "theorem_1",
+      "type": "theorem",
+      "name": "Proposition 1 — Equilateral Triangle",
+      "nameKo": "명제 1 — 정삼각형 작도",
+      "description": "On a given finite straight line to construct an equilateral triangle.",
+      "descriptionKo": "주어진 유한 직선 위에 정삼각형을 작도할 수 있다.",
+      "quote": "세 변이 모두 같다니… 완벽한 균형이에요! 처음 만드는 도형이 이거라니 감동적이야!",
+      "imageUrl": "/images/cards/theorem_1.png"
+    },
+    {
+      "id": "theorem_2",
+      "type": "theorem",
+      "name": "Proposition 2 — Copy a Segment",
+      "nameKo": "명제 2 — 선분 복사",
+      "description": "To place a straight line equal to a given straight line with one end at a given point.",
+      "descriptionKo": "주어진 점에서 주어진 선분과 같은 길이의 선분을 작도할 수 있다.",
+      "quote": "완벽하게 복사해드릴게요! 길이는 속일 수 없어요~",
+      "imageUrl": "/images/cards/theorem_2.png"
+    },
+    {
+      "id": "theorem_3",
+      "type": "theorem",
+      "name": "Proposition 3 — Cut a Segment",
+      "nameKo": "명제 3 — 선분 절단",
+      "description": "Given two unequal straight lines, to cut off from the greater a straight line equal to the less.",
+      "descriptionKo": "두 불균등한 직선에서 큰 쪽에서 작은 것과 같은 선분을 잘라낼 수 있다.",
+      "quote": "너무 길면 잘라드릴게요. 딱 맞게 맞춰주는 게 제 특기니까요!",
+      "imageUrl": "/images/cards/theorem_3.png"
+    },
+    {
+      "id": "theorem_4",
+      "type": "theorem",
+      "name": "Proposition 4 — SAS Congruence",
+      "nameKo": "명제 4 — SAS 합동",
+      "description": "If two triangles have two sides equal to two sides respectively, and have the angles contained by the equal sides also equal, then they will also have the base equal to the base, the triangle will be equal to the triangle, and the remaining angles will be equal to the remaining angles respectively.",
+      "descriptionKo": "두 삼각형에서 두 변과 끼인각이 각각 같으면 두 삼각형은 합동이다 (SAS).",
+      "quote": "두 변이랑 끼인각만 같아도 완전히 같은 삼각형이 돼요. 세상에 완전한 쌍둥이가 있다면 이거예요!",
+      "imageUrl": "/images/cards/theorem_4.png"
+    },
+    {
+      "id": "theorem_5",
+      "type": "theorem",
+      "name": "Proposition 5 — Isosceles Base Angles",
+      "nameKo": "명제 5 — 이등변삼각형의 밑각",
+      "description": "In isosceles triangles the angles at the base are equal to one another.",
+      "descriptionKo": "이등변삼각형의 밑각은 서로 같다.",
+      "quote": "양쪽이 같으면 균형잡힌 거잖아요! 이등변삼각형은 공평한 아이예요~",
+      "imageUrl": "/images/cards/theorem_5.png"
+    },
+    {
+      "id": "theorem_6",
+      "type": "theorem",
+      "name": "Proposition 6 — Equal Angles Isosceles",
+      "nameKo": "명제 6 — 같은 각 → 이등변삼각형",
+      "description": "If in a triangle two angles be equal to one another, the sides which subtend the equal angles will also be equal to one another.",
+      "descriptionKo": "삼각형에서 두 각이 같으면 그 각을 마주보는 두 변도 같다.",
+      "quote": "명제 5의 역이에요! 각도가 같으면 변도 같다는 거… 대칭의 힘이죠!",
+      "imageUrl": "/images/cards/theorem_6.png"
+    },
+    {
+      "id": "theorem_7",
+      "type": "theorem",
+      "name": "Proposition 7 — Unique Triangle",
+      "nameKo": "명제 7 — 삼각형의 유일성",
+      "description": "Given two straight lines constructed on a straight line from its extremities and meeting in a point, there cannot be constructed on the same straight line from its extremities, and on the same side of it, two other straight lines meeting in another point and equal to the former two respectively.",
+      "descriptionKo": "같은 밑변 위에, 같은 쪽에, 꼭짓점이 다른 두 합동 삼각형은 존재하지 않는다.",
+      "quote": "같은 조건에서 만들어진 삼각형은 단 하나뿐이에요. 진짜 유일한 존재!",
+      "imageUrl": "/images/cards/theorem_7.png"
+    },
+    {
+      "id": "theorem_8",
+      "type": "theorem",
+      "name": "Proposition 8 — SSS Congruence",
+      "nameKo": "명제 8 — SSS 합동",
+      "description": "If two triangles have the two sides equal to two sides respectively, and have also the base equal to the base, they will also have the angles equal which are contained by the equal straight lines.",
+      "descriptionKo": "세 변이 각각 같으면 두 삼각형은 합동이다 (SSS).",
+      "quote": "세 변이 다 같으면 무조건 같은 삼각형이에요! 삼위일체의 힘!",
+      "imageUrl": "/images/cards/theorem_8.png"
+    },
+    {
+      "id": "theorem_9",
+      "type": "theorem",
+      "name": "Proposition 9 — Bisect an Angle",
+      "nameKo": "명제 9 — 각도 이등분",
+      "description": "To bisect a given rectilineal angle.",
+      "descriptionKo": "주어진 직선각을 이등분할 수 있다.",
+      "quote": "딱 반으로 나눠드릴게요! 공평하게 나누는 게 제 특기니까요~",
+      "imageUrl": "/images/cards/theorem_9.png"
+    },
+    {
+      "id": "theorem_10",
+      "type": "theorem",
+      "name": "Proposition 10 — Bisect a Segment",
+      "nameKo": "명제 10 — 선분 이등분",
+      "description": "To bisect a given finite straight line.",
+      "descriptionKo": "주어진 유한 직선을 이등분할 수 있다.",
+      "quote": "중점을 찾았어요! 선분의 정확한 가운데… 균형의 중심이에요.",
+      "imageUrl": "/images/cards/theorem_10.png"
+    },
+    {
+      "id": "theorem_11",
+      "type": "theorem",
+      "name": "Proposition 11 — Perpendicular Line",
+      "nameKo": "명제 11 — 수선 작도",
+      "description": "To draw a straight line at right angles to a given straight line from a given point on it.",
+      "descriptionKo": "직선 위의 점에서 그 직선에 수직인 직선을 작도할 수 있다.",
+      "quote": "완벽한 90도! 빈틈없이 정확한 수직선을 그어드릴게요!",
+      "imageUrl": "/images/cards/theorem_11.png"
+    },
+    {
+      "id": "theorem_12",
+      "type": "theorem",
+      "name": "Proposition 12 — Drop a Perpendicular",
+      "nameKo": "명제 12 — 수선의 발",
+      "description": "To a given infinite straight line, from a given point which is not on it, to draw a perpendicular straight line.",
+      "descriptionKo": "직선 밖의 점에서 그 직선에 수직인 직선을 작도할 수 있다.",
+      "quote": "멀리서도 수직을 내려드릴 수 있어요. 거리는 문제없어요!",
+      "imageUrl": "/images/cards/theorem_12.png"
+    },
+    {
+      "id": "theorem_13",
+      "type": "theorem",
+      "name": "Proposition 13 — Supplementary Angles",
+      "nameKo": "명제 13 — 보각",
+      "description": "If a straight line set up on a straight line make angles, it will make either two right angles or angles equal to two right angles.",
+      "descriptionKo": "직선 위에 직선을 세우면, 두 각의 합은 두 직각(180°)과 같다.",
+      "quote": "합쳐서 180도! 우리는 서로 보완하는 사이예요. 보각 커플~",
+      "imageUrl": "/images/cards/theorem_13.png"
+    },
+    {
+      "id": "theorem_14",
+      "type": "theorem",
+      "name": "Proposition 14 — Straight Line from Adjacent Angles",
+      "nameKo": "명제 14 — 직선 판별",
+      "description": "If with any straight line, and at a point on it, two straight lines not lying on the same side make the adjacent angles equal to two right angles, the two straight lines will be in a straight line with one another.",
+      "descriptionKo": "한 점에서 두 직선이 이루는 인접각의 합이 180°이면, 그 두 직선은 일직선이다.",
+      "quote": "180도가 되면 일직선이에요! 방향이 맞을 때 모든 게 하나로 이어지죠.",
+      "imageUrl": "/images/cards/theorem_14.png"
+    },
+    {
+      "id": "theorem_15",
+      "type": "theorem",
+      "name": "Proposition 15 — Vertical Angles",
+      "nameKo": "명제 15 — 맞꼭지각",
+      "description": "If two straight lines cut one another, they make the vertical angles equal to one another.",
+      "descriptionKo": "두 직선이 교차하면 맞꼭지각은 같다.",
+      "quote": "마주보는 각도는 항상 같아요. 서로 눈을 마주치면 알 수 있는 거잖아요~",
+      "imageUrl": "/images/cards/theorem_15.png"
+    },
+    {
+      "id": "theorem_16",
+      "type": "theorem",
+      "name": "Proposition 16 — Exterior Angle",
+      "nameKo": "명제 16 — 외각 정리",
+      "description": "In any triangle, if one of the sides be produced, the exterior angle is greater than either of the interior and opposite angles.",
+      "descriptionKo": "삼각형의 한 변을 연장하면, 외각은 두 내대각보다 크다.",
+      "quote": "바깥에 있는 각이 안쪽보다 더 크다니! 세상을 넓게 바라봐야 더 많이 보이는 것처럼요.",
+      "imageUrl": "/images/cards/theorem_16.png"
+    },
+    {
+      "id": "theorem_17",
+      "type": "theorem",
+      "name": "Proposition 17 — Two Angles Less Than 180°",
+      "nameKo": "명제 17 — 두 내각의 합",
+      "description": "In any triangle two angles taken together in any manner are less than two right angles.",
+      "descriptionKo": "삼각형의 두 내각의 합은 180°보다 작다.",
+      "quote": "삼각형 안에서 두 각을 더해도 180도를 넘을 수 없어요. 한계를 아는 것도 지혜예요.",
+      "imageUrl": "/images/cards/theorem_17.png"
+    },
+    {
+      "id": "theorem_18",
+      "type": "theorem",
+      "name": "Proposition 18 — Greater Side Opposite Greater Angle",
+      "nameKo": "명제 18 — 큰 변 vs 큰 각",
+      "description": "In any triangle the greater side subtends the greater angle.",
+      "descriptionKo": "삼각형에서 더 긴 변은 더 큰 각을 마주본다.",
+      "quote": "키가 크면 더 넓게 볼 수 있는 것처럼, 긴 변은 더 큰 각을 만들어요!",
+      "imageUrl": "/images/cards/theorem_18.png"
+    },
+    {
+      "id": "theorem_19",
+      "type": "theorem",
+      "name": "Proposition 19 — Greater Angle Opposite Greater Side",
+      "nameKo": "명제 19 — 큰 각 vs 큰 변",
+      "description": "In any triangle the greater angle is subtended by the greater side.",
+      "descriptionKo": "삼각형에서 더 큰 각은 더 긴 변을 마주본다.",
+      "quote": "명제 18의 역이에요! 큰 각 앞에는 큰 변이 있다… 당연하지만 증명이 필요해요!",
+      "imageUrl": "/images/cards/theorem_19.png"
+    },
+    {
+      "id": "theorem_20",
+      "type": "theorem",
+      "name": "Proposition 20 — Triangle Inequality",
+      "nameKo": "명제 20 — 삼각 부등식",
+      "description": "In any triangle two sides taken together in any manner are greater than the remaining one.",
+      "descriptionKo": "삼각형에서 어떤 두 변의 합도 나머지 한 변보다 크다.",
+      "quote": "돌아가는 길이 더 길어요! 두 변을 합치면 항상 직선보다 길다는 진리!",
+      "imageUrl": "/images/cards/theorem_20.png"
+    },
+    {
+      "id": "theorem_21",
+      "type": "theorem",
+      "name": "Proposition 21 — Interior Lines of Triangle",
+      "nameKo": "명제 21 — 삼각형 내부선분",
+      "description": "If on one of the sides of a triangle, from its extremities, there be constructed two straight lines meeting within the triangle, the straight lines so constructed will be less than the remaining two sides of the triangle, but will contain a greater angle.",
+      "descriptionKo": "삼각형의 밑변 양 끝에서 내부에서 만나는 두 선분을 그으면, 그 합은 나머지 두 변의 합보다 작지만, 끼인각은 더 크다.",
+      "quote": "안쪽 지름길은 더 짧지만 각도는 더 커요. 지름길에는 그만한 대가가 있는 법!",
+      "imageUrl": "/images/cards/theorem_21.png"
+    },
+    {
+      "id": "theorem_22",
+      "type": "theorem",
+      "name": "Proposition 22 — Construct Triangle from Segments",
+      "nameKo": "명제 22 — 세 선분으로 삼각형 작도",
+      "description": "Out of three straight lines, which are equal to three given straight lines, to construct a triangle.",
+      "descriptionKo": "세 선분의 합 조건이 맞으면 그것들로 삼각형을 작도할 수 있다.",
+      "quote": "세 가지 재료가 있으면 삼각형을 만들 수 있어요! 단, 삼각 부등식을 만족해야 하지만요~",
+      "imageUrl": "/images/cards/theorem_22.png"
+    },
+    {
+      "id": "theorem_23",
+      "type": "theorem",
+      "name": "Proposition 23 — Copy an Angle",
+      "nameKo": "명제 23 — 각도 복사",
+      "description": "On a given straight line and at a point on it to construct a rectilineal angle equal to a given rectilineal angle.",
+      "descriptionKo": "주어진 직선의 한 점에서 주어진 각과 같은 각을 작도할 수 있다.",
+      "quote": "각도를 완벽하게 복사해드릴게요! 모양도 크기도 그대로!",
+      "imageUrl": "/images/cards/theorem_23.png"
+    },
+    {
+      "id": "theorem_24",
+      "type": "theorem",
+      "name": "Proposition 24 — Greater Angle, Greater Base",
+      "nameKo": "명제 24 — 끼인각과 밑변",
+      "description": "If two triangles have the two sides equal to two sides respectively, but have the one of the angles contained by the equal straight lines greater than the other, they will also have the base greater than the base.",
+      "descriptionKo": "두 삼각형에서 두 변이 각각 같더라도 끼인각이 더 크면 밑변도 더 길다.",
+      "quote": "조건이 같아도 각도에 따라 결과가 달라져요. 미묘한 차이가 큰 차이를 만들죠!",
+      "imageUrl": "/images/cards/theorem_24.png"
+    },
+    {
+      "id": "theorem_25",
+      "type": "theorem",
+      "name": "Proposition 25 — Greater Base, Greater Angle",
+      "nameKo": "명제 25 — 밑변과 끼인각",
+      "description": "If two triangles have the two sides equal to two sides respectively, but have the base greater than the base, they will also have the one of the angles contained by the equal straight lines greater than the other.",
+      "descriptionKo": "두 삼각형에서 두 변이 각각 같더라도 밑변이 더 길면 끼인각도 더 크다.",
+      "quote": "명제 24의 역! 밑변을 보면 각도를 알 수 있어요. 결과로 원인을 찾는 탐정이죠!",
+      "imageUrl": "/images/cards/theorem_25.png"
+    },
+    {
+      "id": "theorem_26",
+      "type": "theorem",
+      "name": "Proposition 26 — AAS & ASA Congruence",
+      "nameKo": "명제 26 — AAS/ASA 합동",
+      "description": "If two triangles have the two angles equal to two angles respectively, and one side equal to one side, namely, either the side adjoining the equal angles, or that subtending one of the equal angles, they will also have the remaining sides equal to the remaining sides.",
+      "descriptionKo": "두 각과 한 변이 각각 같으면 두 삼각형은 합동이다 (AAS / ASA).",
+      "quote": "각도 두 개와 변 하나면 충분해요! 효율적인 합동 증명이죠~",
+      "imageUrl": "/images/cards/theorem_26.png"
+    },
+    {
+      "id": "theorem_27",
+      "type": "theorem",
+      "name": "Proposition 27 — Alternate Angles and Parallel Lines",
+      "nameKo": "명제 27 — 엇각과 평행선",
+      "description": "If a straight line falling on two straight lines make the alternate angles equal to one another, the straight lines will be parallel to one another.",
+      "descriptionKo": "한 직선이 두 직선과 만날 때 엇각이 같으면 두 직선은 평행하다.",
+      "quote": "엇각이 같으면 평행! 서로 다른 방향을 보지만 같은 크기를 가진 친구들이에요.",
+      "imageUrl": "/images/cards/theorem_27.png"
+    },
+    {
+      "id": "theorem_28",
+      "type": "theorem",
+      "name": "Proposition 28 — Corresponding Angles and Parallel Lines",
+      "nameKo": "명제 28 — 동위각·동측각과 평행선",
+      "description": "If a straight line falling on two straight lines make the exterior angle equal to the interior and opposite angle on the same side, or the interior angles on the same side equal to two right angles, the straight lines will be parallel to one another.",
+      "descriptionKo": "동위각이 같거나 동측내각의 합이 180°이면 두 직선은 평행하다.",
+      "quote": "같은 편에서 봐도, 다른 편에서 봐도 평행은 평행이에요! 변하지 않는 관계!",
+      "imageUrl": "/images/cards/theorem_28.png"
+    },
+    {
+      "id": "theorem_29",
+      "type": "theorem",
+      "name": "Proposition 29 — Parallel Lines and Angles",
+      "nameKo": "명제 29 — 평행선의 성질",
+      "description": "A straight line falling on parallel straight lines makes the alternate angles equal to one another, the exterior angle equal to the interior and opposite angle, and the interior angles on the same side equal to two right angles.",
+      "descriptionKo": "평행선에 직선이 교차하면: 엇각 동등, 동위각 동등, 동측내각 합 180°.",
+      "quote": "평행선은 비밀을 갖고 있어요! 한 직선만 그어도 모든 각도 관계가 드러나죠.",
+      "imageUrl": "/images/cards/theorem_29.png"
+    },
+    {
+      "id": "theorem_30",
+      "type": "theorem",
+      "name": "Proposition 30 — Lines Parallel to Same Line",
+      "nameKo": "명제 30 — 평행의 전이성",
+      "description": "Straight lines parallel to the same straight line are also parallel to one another.",
+      "descriptionKo": "같은 직선에 평행인 두 직선은 서로도 평행하다.",
+      "quote": "같은 것과 평행하면 서로도 평행! 공리 1이 평행선에도 적용되는 거예요~",
+      "imageUrl": "/images/cards/theorem_30.png"
+    },
+    {
+      "id": "theorem_31",
+      "type": "theorem",
+      "name": "Proposition 31 — Draw Parallel Line",
+      "nameKo": "명제 31 — 평행선 작도",
+      "description": "Through a given point to draw a straight line parallel to a given straight line.",
+      "descriptionKo": "주어진 점을 지나면서 주어진 직선에 평행인 직선을 작도할 수 있다.",
+      "quote": "외부의 점에서 완벽한 평행선을! 나란히 달리는 두 직선의 우정이에요.",
+      "imageUrl": "/images/cards/theorem_31.png"
+    },
+    {
+      "id": "theorem_32",
+      "type": "theorem",
+      "name": "Proposition 32 — Angle Sum of Triangle",
+      "nameKo": "명제 32 — 삼각형 내각의 합",
+      "description": "In any triangle, if one of the sides be produced, the exterior angle is equal to the two interior and opposite angles, and the three interior angles of the triangle are equal to two right angles.",
+      "descriptionKo": "삼각형의 외각은 두 내대각의 합이고, 내각의 합은 180°이다.",
+      "quote": "삼각형의 세 내각을 더하면 항상 180도! 우주의 법칙처럼 변하지 않는 진실이에요.",
+      "imageUrl": "/images/cards/theorem_32.png"
+    },
+    {
+      "id": "theorem_33",
+      "type": "theorem",
+      "name": "Proposition 33 — Parallel and Equal Sides Form Parallelogram",
+      "nameKo": "명제 33 — 평행사변형의 조건",
+      "description": "The straight lines joining equal and parallel straight lines (at the extremities which are) in the same directions are themselves also equal and parallel.",
+      "descriptionKo": "같고 평행한 두 선분의 끝점을 연결하면 평행사변형이 된다.",
+      "quote": "평행하고 길이도 같으면 연결하면 평행사변형! 조화로운 사각형의 탄생이에요.",
+      "imageUrl": "/images/cards/theorem_33.png"
+    },
+    {
+      "id": "theorem_34",
+      "type": "theorem",
+      "name": "Proposition 34 — Parallelogram Properties",
+      "nameKo": "명제 34 — 평행사변형의 성질",
+      "description": "In parallelogrammic areas the opposite sides and angles are equal to one another, and the diameter bisects the areas.",
+      "descriptionKo": "평행사변형에서 마주보는 변과 각은 같고, 대각선은 넓이를 이등분한다.",
+      "quote": "마주보는 것들은 항상 같아요! 평행사변형은 대칭의 미학 그 자체예요.",
+      "imageUrl": "/images/cards/theorem_34.png"
+    },
+    {
+      "id": "theorem_35",
+      "type": "theorem",
+      "name": "Proposition 35 — Parallelograms on Same Base",
+      "nameKo": "명제 35 — 같은 밑변 위의 평행사변형",
+      "description": "Parallelograms which are on the same base and in the same parallels are equal to one another.",
+      "descriptionKo": "같은 밑변, 같은 두 평행선 사이에 있는 평행사변형들의 넓이는 같다.",
+      "quote": "생김새가 달라도 넓이는 같을 수 있어요! 외모보다 중요한 게 있다는 것처럼요~",
+      "imageUrl": "/images/cards/theorem_35.png"
+    },
+    {
+      "id": "theorem_36",
+      "type": "theorem",
+      "name": "Proposition 36 — Parallelograms on Equal Bases",
+      "nameKo": "명제 36 — 같은 넓이의 평행사변형",
+      "description": "Parallelograms which are on equal bases and in the same parallels are equal to one another.",
+      "descriptionKo": "같은 평행선 사이에서 밑변이 같은 평행사변형들의 넓이는 같다.",
+      "quote": "밑변만 같아도 넓이가 같아요! 기초가 탄탄하면 결과도 같아지죠.",
+      "imageUrl": "/images/cards/theorem_36.png"
+    },
+    {
+      "id": "theorem_37",
+      "type": "theorem",
+      "name": "Proposition 37 — Triangles on Same Base",
+      "nameKo": "명제 37 — 같은 밑변 위의 삼각형",
+      "description": "Triangles which are on the same base and in the same parallels are equal to one another.",
+      "descriptionKo": "같은 밑변, 같은 두 평행선 사이의 삼각형들의 넓이는 같다.",
+      "quote": "삼각형도 마찬가지예요! 평행선 사이라면 모양이 달라도 넓이는 같아요.",
+      "imageUrl": "/images/cards/theorem_37.png"
+    },
+    {
+      "id": "theorem_38",
+      "type": "theorem",
+      "name": "Proposition 38 — Triangles on Equal Bases",
+      "nameKo": "명제 38 — 같은 넓이의 삼각형",
+      "description": "Triangles which are on equal bases and in the same parallels are equal to one another.",
+      "descriptionKo": "같은 평행선 사이에서 밑변이 같은 삼각형들의 넓이는 같다.",
+      "quote": "같은 조건이면 같은 결과! 공평함이 기하학의 언어로 표현된 거예요.",
+      "imageUrl": "/images/cards/theorem_38.png"
+    },
+    {
+      "id": "theorem_39",
+      "type": "theorem",
+      "name": "Proposition 39 — Equal Triangles on Same Base",
+      "nameKo": "명제 39 — 같은 밑변 위의 같은 넓이 삼각형",
+      "description": "Equal triangles which are on the same base and on the same side are also in the same parallels.",
+      "descriptionKo": "같은 밑변 위에서 넓이가 같은 삼각형들은 같은 평행선 사이에 있다.",
+      "quote": "명제 37의 역! 넓이가 같으면 같은 평행선 사이에 있는 거예요.",
+      "imageUrl": "/images/cards/theorem_39.png"
+    },
+    {
+      "id": "theorem_40",
+      "type": "theorem",
+      "name": "Proposition 40 — Equal Triangles on Equal Bases",
+      "nameKo": "명제 40 — 같은 넓이, 같은 밑변 삼각형",
+      "description": "Equal triangles which are on equal bases and on the same side are also in the same parallels.",
+      "descriptionKo": "같은 밑변 위에서 넓이가 같은 삼각형들은 같은 평행선 사이에 있다 (등밑변).",
+      "quote": "명제 38의 역이에요! 조건과 결론이 뒤집혀도 진실은 유지돼요.",
+      "imageUrl": "/images/cards/theorem_40.png"
+    },
+    {
+      "id": "theorem_41",
+      "type": "theorem",
+      "name": "Proposition 41 — Parallelogram Double Triangle",
+      "nameKo": "명제 41 — 평행사변형은 삼각형의 두 배",
+      "description": "If a parallelogram have the same base with a triangle and be in the same parallels, the parallelogram is double of the triangle.",
+      "descriptionKo": "같은 밑변, 같은 평행선 사이의 평행사변형은 삼각형 넓이의 두 배다.",
+      "quote": "평행사변형은 삼각형의 두 배! 대각선 하나로 정확히 반으로 나뉘는 마법이에요.",
+      "imageUrl": "/images/cards/theorem_41.png"
+    },
+    {
+      "id": "theorem_42",
+      "type": "theorem",
+      "name": "Proposition 42 — Construct Parallelogram Equal to Triangle",
+      "nameKo": "명제 42 — 삼각형과 같은 평행사변형 작도",
+      "description": "To construct a parallelogram equal to a given triangle in a given rectilineal angle.",
+      "descriptionKo": "주어진 삼각형과 넓이가 같고, 주어진 각을 가진 평행사변형을 작도할 수 있다.",
+      "quote": "삼각형을 평행사변형으로 변신시킬 수 있어요! 넓이는 그대로, 모양만 바꾸는 마법사!",
+      "imageUrl": "/images/cards/theorem_42.png"
+    },
+    {
+      "id": "theorem_43",
+      "type": "theorem",
+      "name": "Proposition 43 — Complements of Parallelogram",
+      "nameKo": "명제 43 — 평행사변형의 보형",
+      "description": "In any parallelogram the complements of the parallelograms about the diameter are equal to one another.",
+      "descriptionKo": "평행사변형에서 대각선 주변의 두 보형 평행사변형의 넓이는 같다.",
+      "quote": "대각선 양쪽의 작은 평행사변형들… 크기가 달라 보여도 넓이는 같아요!",
+      "imageUrl": "/images/cards/theorem_43.png"
+    },
+    {
+      "id": "theorem_44",
+      "type": "theorem",
+      "name": "Proposition 44 — Apply Parallelogram to a Line",
+      "nameKo": "명제 44 — 직선에 평행사변형 부착",
+      "description": "To a given straight line to apply a parallelogram equal to a given triangle and having one of its angles equal to a given rectilineal angle.",
+      "descriptionKo": "주어진 직선에, 주어진 삼각형과 넓이가 같고, 주어진 각을 가진 평행사변형을 붙일 수 있다.",
+      "quote": "어느 직선에도 딱 맞는 평행사변형을 갖다 붙일 수 있어요! 완벽한 맞춤 제작이죠.",
+      "imageUrl": "/images/cards/theorem_44.png"
+    },
+    {
+      "id": "theorem_45",
+      "type": "theorem",
+      "name": "Proposition 45 — Construct Parallelogram Equal to Polygon",
+      "nameKo": "명제 45 — 다각형과 같은 평행사변형 작도",
+      "description": "To construct a parallelogram equal to a given rectilineal figure and having an angle equal to a given rectilineal angle.",
+      "descriptionKo": "주어진 다각형과 넓이가 같고, 주어진 각을 가진 평행사변형을 작도할 수 있다.",
+      "quote": "복잡한 다각형도 평행사변형 하나로! 도형들을 통일하는 능력이에요~",
+      "imageUrl": "/images/cards/theorem_45.png"
+    },
+    {
+      "id": "theorem_46",
+      "type": "theorem",
+      "name": "Proposition 46 — Construct a Square",
+      "nameKo": "명제 46 — 정사각형 작도",
+      "description": "On a given straight line to describe a square.",
+      "descriptionKo": "주어진 직선 위에 정사각형을 작도할 수 있다.",
+      "quote": "완벽한 정사각형! 네 변이 모두 같고 네 각이 모두 직각인 완전한 도형이에요!",
+      "imageUrl": "/images/cards/theorem_46.png"
+    },
+    {
+      "id": "theorem_47",
+      "type": "theorem",
+      "name": "Proposition 47 — Pythagorean Theorem",
+      "nameKo": "명제 47 — 피타고라스 정리",
+      "description": "In right-angled triangles the square on the side subtending the right angle is equal to the squares on the sides containing the right angle.",
+      "descriptionKo": "직각삼각형에서 빗변의 제곱은 나머지 두 변의 제곱의 합과 같다 (a² + b² = c²).",
+      "quote": "드디어 피타고라스! a² + b² = c²… 2500년이 지나도 변하지 않는 우주의 진리예요!!",
+      "imageUrl": "/images/cards/theorem_47.png"
+    },
+    {
+      "id": "theorem_48",
+      "type": "theorem",
+      "name": "Proposition 48 — Converse of Pythagorean Theorem",
+      "nameKo": "명제 48 — 피타고라스 역정리",
+      "description": "If in a triangle the square on one of the sides be equal to the squares on the remaining two sides of the triangle, the angle contained by the remaining two sides of the triangle is right.",
+      "descriptionKo": "삼각형에서 한 변의 제곱이 나머지 두 변의 제곱의 합과 같으면, 그 삼각형은 직각삼각형이다.",
+      "quote": "피타고라스 정리의 역! a² + b² = c²이면 직각삼각형이에요. 완벽한 마무리~",
+      "imageUrl": "/images/cards/theorem_48.png"
+    }
+  ]
+}
