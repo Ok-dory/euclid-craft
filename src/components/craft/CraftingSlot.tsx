@@ -31,7 +31,7 @@ export default function CraftingSlot() {
           조합 슬롯
         </h2>
         <span className="text-[#a0a0a0] text-xs">
-          {selectedCards.length} / 10
+          {selectedCards.length} / 4
         </span>
       </div>
 
@@ -44,7 +44,7 @@ export default function CraftingSlot() {
             <div className="text-3xl opacity-30">⬡</div>
             <p className="text-xs text-center">
               왼쪽에서 카드를 선택하세요<br />
-              <span className="text-[#a0a0a0]/60">최대 10장까지 조합 가능</span>
+              <span className="text-[#a0a0a0]/60">최대 4장까지 조합 가능</span>
             </p>
           </div>
         ) : (

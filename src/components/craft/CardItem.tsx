@@ -3,6 +3,7 @@
 import { Card } from '@/types';
 import { useGameStore } from '@/stores/gameStore';
 import { CardIcon } from './CardIcons';
+import CardImage from './CardImage';
 
 const TYPE_LABELS: Record<string, string> = {
   axiom: '공리',
@@ -76,14 +77,17 @@ export default function CardItem({ card, isUnlocked, isSelected, compact = false
         <div className="absolute top-2 right-2 w-2 h-2 rounded-full bg-[#c9a84c] shadow-[0_0_6px_#c9a84c]" />
       )}
 
-      {/* Image area */}
-      <div className="relative w-full aspect-square bg-[#12121e] flex items-center justify-center p-4">
+      {/* Image area — portrait 3:4 */}
+      <div className="relative w-full aspect-[3/4] bg-[#12121e]">
         {isUnlocked ? (
-          <div className="w-full h-full max-w-[72px] max-h-[72px]">
-            <CardIcon type={card.type} />
-          </div>
+          <CardImage
+            imageUrl={card.imageUrl}
+            type={card.type}
+            alt={card.nameKo}
+            iconClassName="p-4"
+          />
         ) : (
-          <div className="text-3xl opacity-30">?</div>
+          <div className="absolute inset-0 flex items-center justify-center text-3xl opacity-30">?</div>
         )}
       </div>
 

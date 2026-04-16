@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import { Card } from '@/types';
-import { CardIcon } from '@/components/craft/CardIcons';
+import CardImage from '@/components/craft/CardImage';
 import cardsData from '@/data/cards.json';
 import recipesData from '@/data/recipes.json';
 
@@ -96,11 +96,18 @@ export default function CardDetailModal({ card, isUnlocked, onClose }: CardDetai
               {/* Header */}
               <div className="flex gap-4 mb-5">
                 {/* Card image */}
-                <div className="w-24 h-24 shrink-0 rounded-xl border border-[#2a2a3e] bg-[#0d0d1a] flex items-center justify-center p-3">
+                <div className="w-20 shrink-0 rounded-xl border border-[#2a2a3e] bg-[#0d0d1a] overflow-hidden" style={{ aspectRatio: '3/4' }}>
                   {isUnlocked ? (
-                    <CardIcon type={card.type} />
+                    <CardImage
+                      imageUrl={card.imageUrl}
+                      type={card.type}
+                      alt={card.nameKo}
+                      iconClassName="p-3"
+                    />
                   ) : (
-                    <span className="text-3xl text-[#a0a0a0] opacity-30">?</span>
+                    <div className="w-full h-full flex items-center justify-center">
+                      <span className="text-3xl text-[#a0a0a0] opacity-30">?</span>
+                    </div>
                   )}
                 </div>
 

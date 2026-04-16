@@ -65,7 +65,7 @@ export const useGameStore = create<GameStore>()(
         const { selectedCards, unlockedCards } = get();
         if (!unlockedCards.includes(cardId)) return;
         if (selectedCards.includes(cardId)) return;
-        if (selectedCards.length >= 10) return;
+        if (selectedCards.length >= 4) return;
         set({ selectedCards: [...selectedCards, cardId] });
       },
 

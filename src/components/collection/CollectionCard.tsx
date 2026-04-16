@@ -2,6 +2,7 @@
 
 import { Card } from '@/types';
 import { CardIcon } from '@/components/craft/CardIcons';
+import CardImage from '@/components/craft/CardImage';
 
 const TYPE_LABELS: Record<string, string> = {
   axiom: '공리',
@@ -33,21 +34,26 @@ export default function CollectionCard({ card, isUnlocked, onClick }: Collection
           : 'border-[#2a2a3e] bg-[#12121e] opacity-45 hover:opacity-60'}
       `}
     >
-      {/* Image area */}
-      <div className="relative w-full aspect-square bg-[#0d0d1a] flex items-center justify-center p-5">
+      {/* Image area — portrait 3:4 */}
+      <div className="relative w-full aspect-[3/4] bg-[#0d0d1a]">
         {isUnlocked ? (
-          <div className="w-full h-full max-w-[80px] max-h-[80px] transition-transform duration-200 group-hover:scale-105">
-            <CardIcon type={card.type} />
+          <div className="absolute inset-0 transition-transform duration-200 group-hover:scale-105">
+            <CardImage
+              imageUrl={card.imageUrl}
+              type={card.type}
+              alt={card.nameKo}
+              iconClassName="p-5"
+            />
           </div>
         ) : (
-          <div className="flex flex-col items-center gap-2 opacity-40">
+          <div className="absolute inset-0 flex items-center justify-center opacity-40">
             <span className="text-4xl text-[#a0a0a0]">?</span>
           </div>
         )}
 
         {/* Unlocked glow dot */}
         {isUnlocked && (
-          <div className="absolute top-2.5 right-2.5 w-1.5 h-1.5 rounded-full bg-[#c9a84c]/80" />
+          <div className="absolute top-2.5 right-2.5 w-1.5 h-1.5 rounded-full bg-[#c9a84c]/80 z-10" />
         )}
       </div>
 
