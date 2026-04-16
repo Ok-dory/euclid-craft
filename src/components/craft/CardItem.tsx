@@ -74,7 +74,7 @@ export default function CardItem({ card, isUnlocked, isSelected, compact = false
     >
       {/* Gold selected indicator */}
       {isSelected && (
-        <div className="absolute top-2 right-2 w-2 h-2 rounded-full bg-[#c9a84c] shadow-[0_0_6px_#c9a84c]" />
+        <div className="absolute top-1.5 right-1.5 sm:top-2 sm:right-2 w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[#c9a84c] shadow-[0_0_6px_#c9a84c] z-10" />
       )}
 
       {/* Image area — portrait 3:4 */}
@@ -87,12 +87,19 @@ export default function CardItem({ card, isUnlocked, isSelected, compact = false
             iconClassName="p-4"
           />
         ) : (
-          <div className="absolute inset-0 flex items-center justify-center text-3xl opacity-30">?</div>
+          <div className="absolute inset-0 flex items-center justify-center text-xl sm:text-3xl opacity-30">?</div>
         )}
+
+        {/* 모바일 전용 이름 오버레이 (sm 이상에서는 숨김) */}
+        <div className="absolute bottom-0 left-0 right-0 sm:hidden bg-gradient-to-t from-black/80 to-transparent pt-4 pb-1 px-1">
+          <p className="text-white text-[8px] font-medium leading-tight text-center truncate">
+            {isUnlocked ? card.nameKo : '???'}
+          </p>
+        </div>
       </div>
 
-      {/* Card info */}
-      <div className="p-3 flex flex-col gap-1 flex-1">
+      {/* Card info — 모바일에서 숨김, sm 이상에서 표시 */}
+      <div className="hidden sm:flex p-3 flex-col gap-1 flex-1">
         <span className={`text-xs font-medium px-1.5 py-0.5 rounded border w-fit ${TYPE_COLORS[card.type]}`}>
           {TYPE_LABELS[card.type]}
         </span>

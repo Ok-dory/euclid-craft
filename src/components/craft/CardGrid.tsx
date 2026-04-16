@@ -71,7 +71,7 @@ export default function CardGrid() {
 
       {/* Grid */}
       <div className="flex-1 overflow-y-auto pr-1 -mr-1">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-2">
+        <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-1.5 sm:gap-2">
           {filteredCards.map((card) => {
             const isUnlocked = unlockedCards.includes(card.id);
             const isSelected = selectedCards.includes(card.id);

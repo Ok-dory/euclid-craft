@@ -37,14 +37,16 @@ export default function CraftingSlot() {
 
       {/* Slot area */}
       <div
-        className="flex-1 rounded-xl border border-dashed border-[#2a2a3e] bg-[#0d0d1a] p-3 min-h-0 overflow-y-auto flex flex-col gap-2"
+        className="flex-1 rounded-xl border border-dashed border-[#2a2a3e] bg-[#0d0d1a] p-2 sm:p-3 min-h-0 overflow-y-auto flex flex-col gap-2"
       >
         {selectedCardData.length === 0 ? (
-          <div className="flex-1 flex flex-col items-center justify-center text-[#a0a0a0] gap-2">
-            <div className="text-3xl opacity-30">⬡</div>
-            <p className="text-xs text-center">
-              왼쪽에서 카드를 선택하세요<br />
-              <span className="text-[#a0a0a0]/60">최대 4장까지 조합 가능</span>
+          <div className="flex-1 flex flex-col items-center justify-center text-[#a0a0a0] gap-1 sm:gap-2">
+            <div className="hidden sm:block text-3xl opacity-30">⬡</div>
+            <p className="text-[10px] sm:text-xs text-center leading-snug">
+              카드를 선택해 조합하세요
+              <span className="hidden sm:inline">
+                <br /><span className="text-[#a0a0a0]/60">최대 4장까지 조합 가능</span>
+              </span>
             </p>
           </div>
         ) : (
@@ -56,16 +58,16 @@ export default function CraftingSlot() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 10, height: 0, marginBottom: 0 }}
                 transition={{ duration: 0.15 }}
-                className="flex items-center gap-2 rounded-lg border border-[#2a2a3e] bg-[#1e1e2e] px-3 py-2 group"
+                className="flex items-center gap-2 rounded-lg border border-[#2a2a3e] bg-[#1e1e2e] px-2 py-1.5 sm:px-3 sm:py-2 group"
               >
-                <span className={`w-2 h-2 rounded-full shrink-0 ${TYPE_DOT[card.type]}`} />
+                <span className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full shrink-0 ${TYPE_DOT[card.type]}`} />
                 <div className="flex-1 min-w-0">
                   <p className="text-white text-xs font-medium truncate">{card.nameKo}</p>
-                  <p className="text-[#a0a0a0] text-[10px]">{TYPE_LABELS[card.type]}</p>
+                  <p className="text-[#a0a0a0] text-[10px] hidden sm:block">{TYPE_LABELS[card.type]}</p>
                 </div>
                 <button
                   onClick={() => useGameStore.getState().removeFromSlot(card.id)}
-                  className="text-[#a0a0a0] hover:text-white transition-colors text-xs opacity-0 group-hover:opacity-100 shrink-0"
+                  className="text-[#a0a0a0] hover:text-white transition-colors text-xs sm:opacity-0 sm:group-hover:opacity-100 shrink-0"
                   aria-label="제거"
                 >
                   ✕
