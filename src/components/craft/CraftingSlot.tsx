@@ -24,7 +24,7 @@ export default function CraftingSlot() {
   ).filter(Boolean);
 
   return (
-    <div className="flex flex-col gap-4 h-full">
+    <div className="flex flex-col gap-2 sm:gap-4 h-full">
       {/* Header */}
       <div className="flex items-center justify-between">
         <h2 className="text-[#c9a84c] font-semibold text-sm tracking-wider uppercase">
@@ -37,7 +37,7 @@ export default function CraftingSlot() {
 
       {/* Slot area */}
       <div
-        className="flex-1 rounded-xl border border-dashed border-[#2a2a3e] bg-[#0d0d1a] p-3 min-h-[200px] flex flex-col gap-2"
+        className="flex-1 rounded-xl border border-dashed border-[#2a2a3e] bg-[#0d0d1a] p-3 min-h-0 overflow-y-auto flex flex-col gap-2"
       >
         {selectedCardData.length === 0 ? (
           <div className="flex-1 flex flex-col items-center justify-center text-[#a0a0a0] gap-2">
@@ -77,12 +77,12 @@ export default function CraftingSlot() {
       </div>
 
       {/* Buttons */}
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 shrink-0">
         <button
           onClick={combine}
           disabled={selectedCards.length === 0}
           className={`
-            w-full py-3 rounded-xl font-bold text-sm transition-all duration-150
+            w-full py-2 sm:py-3 rounded-xl font-bold text-sm transition-all duration-150
             ${selectedCards.length > 0
               ? 'bg-[#c9a84c] hover:bg-[#d4b560] active:bg-[#b8943a] text-[#0a0a0a] shadow-[0_0_16px_#c9a84c33]'
               : 'bg-[#1e1e2e] text-[#a0a0a0] cursor-not-allowed border border-[#2a2a3e]'}
@@ -94,7 +94,7 @@ export default function CraftingSlot() {
           onClick={clearSlot}
           disabled={selectedCards.length === 0}
           className={`
-            w-full py-2.5 rounded-xl text-sm transition-all duration-150 border
+            w-full py-1.5 sm:py-2.5 rounded-xl text-sm transition-all duration-150 border
             ${selectedCards.length > 0
               ? 'border-[#2a2a3e] hover:border-[#c9a84c]/40 text-[#a0a0a0] hover:text-white'
               : 'border-[#2a2a3e] text-[#a0a0a0]/40 cursor-not-allowed'}

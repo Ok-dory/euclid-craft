@@ -37,18 +37,18 @@ export default function Home() {
 
       {/* Main content */}
       <main className="flex-1 overflow-hidden max-w-7xl w-full mx-auto px-4 sm:px-6 py-4">
-        {/* Desktop: side by side | Mobile: stacked */}
+        {/* Mobile: stacked 60/40 | Desktop: side by side */}
         <div className="flex flex-col lg:flex-row gap-4 h-full">
-          {/* Left: Card Grid */}
-          <div className="flex-1 lg:flex-[2] overflow-hidden flex flex-col min-h-0">
+          {/* Left: Card Grid — mobile 60%, desktop 2/3 */}
+          <div className="flex-[3] lg:flex-[2] min-h-0 overflow-hidden flex flex-col">
             <CardGrid />
           </div>
 
           {/* Divider (desktop only) */}
           <div className="hidden lg:block w-px bg-[#2a2a3e] shrink-0" />
 
-          {/* Right: Crafting Slot + Hint */}
-          <div className="lg:w-72 shrink-0 flex flex-col gap-3 min-h-0">
+          {/* Right: Crafting Slot + Hint — mobile 40%, desktop fixed 288px */}
+          <div className="flex-[2] lg:flex-none lg:w-72 min-h-0 flex flex-col gap-3">
             <div className="flex-1 min-h-0 overflow-hidden">
               <CraftingSlot />
             </div>
